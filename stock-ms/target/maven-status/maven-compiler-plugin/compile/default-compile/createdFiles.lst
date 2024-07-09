@@ -1,0 +1,9 @@
+com/distributed/transactions/stock/repository/StockRepository.class
+com/distributed/transactions/stock/controller/StockController.class
+com/distributed/transactions/stock/dto/CustomerOrder.class
+com/distributed/transactions/stock/dto/Stock.class
+com/distributed/transactions/stock/dto/PaymentEvent.class
+com/distributed/transactions/stock/StockMsApplication.class
+com/distributed/transactions/stock/service/ReversesStock.class
+com/distributed/transactions/stock/dto/DeliveryEvent.class
+com/distributed/transactions/stock/entity/WareHouse.class

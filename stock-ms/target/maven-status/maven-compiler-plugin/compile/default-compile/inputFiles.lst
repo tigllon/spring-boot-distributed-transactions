@@ -1,0 +1,9 @@
+/home/tiglon/resume_projects/spring-boot-distributed-transaction/stock-ms/src/main/java/com/distributed/transactions/stock/controller/StockController.java
+/home/tiglon/resume_projects/spring-boot-distributed-transaction/stock-ms/src/main/java/com/distributed/transactions/stock/service/ReversesStock.java
+/home/tiglon/resume_projects/spring-boot-distributed-transaction/stock-ms/src/main/java/com/distributed/transactions/stock/dto/DeliveryEvent.java
+/home/tiglon/resume_projects/spring-boot-distributed-transaction/stock-ms/src/main/java/com/distributed/transactions/stock/entity/WareHouse.java
+/home/tiglon/resume_projects/spring-boot-distributed-transaction/stock-ms/src/main/java/com/distributed/transactions/stock/dto/CustomerOrder.java
+/home/tiglon/resume_projects/spring-boot-distributed-transaction/stock-ms/src/main/java/com/distributed/transactions/stock/StockMsApplication.java
+/home/tiglon/resume_projects/spring-boot-distributed-transaction/stock-ms/src/main/java/com/distributed/transactions/stock/repository/StockRepository.java
+/home/tiglon/resume_projects/spring-boot-distributed-transaction/stock-ms/src/main/java/com/distributed/transactions/stock/dto/Stock.java
+/home/tiglon/resume_projects/spring-boot-distributed-transaction/stock-ms/src/main/java/com/distributed/transactions/stock/dto/PaymentEvent.java
