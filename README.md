@@ -2,7 +2,8 @@
 This repo contains code of the micro-services performing distributed transaction by leveraging Kafka's transactional capabilities.
 
 ## Miroservice Architecture
-![Architecture](![image](https://github.com/user-attachments/assets/07e8f284-e977-49a8-a89d-1ae1b9bb760e))
+![Architecture](https://github.com/user-attachments/assets/5bbfd1fc-63a6-43d8-80c6-c8aae0788c8f)
+
 
 ## Usage
 First of all we need to start the zookeeper service followed by the kafka server service. Follow the step 1 & 2 in the [documentation](https://kafka.apache.org/quickstart) in order to run these services.
