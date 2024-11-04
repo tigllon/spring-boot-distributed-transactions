@@ -8,7 +8,8 @@ import lombok.ToString;
 @Setter
 @ToString
 public class CustomerOrder {
-    private String item;
+    private Long productId;
+    private String name;
 
     private int quantity;
 

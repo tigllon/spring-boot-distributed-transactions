@@ -19,7 +19,7 @@ public class Order {
     private long id;
 
     @Column
-    private String item;
+    private String name;
 
     @Column
     private int quantity;

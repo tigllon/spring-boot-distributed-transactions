@@ -28,16 +28,16 @@ public class OrderController {
 
         try {
             order.setAmount(customerOrder.getAmount());
-            order.setItem(customerOrder.getItem());
+            order.setName(customerOrder.getName());
             order.setQuantity(customerOrder.getQuantity());
             order.setStatus("CREATED");
             order = orderRepository.save(order);
 
-            customerOrder.setOrderId(order.getId());
-
             OrderEvent event = new OrderEvent();
             event.setOrder(customerOrder);
             event.setType("ORDER_CREATED");
+            customerOrder.setOrderId(order.getId());
+
             kafkaTemplate.send("new-orders", event);
             log.info("new-orders ORDER_CREATED {}", event);
         } catch (Exception e) {
