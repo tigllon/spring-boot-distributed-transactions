@@ -11,6 +11,7 @@ First of all we need to start the zookeeper service followed by the kafka server
 Now we need to start the microservices present in our repo i.e payment-ms, order-ms & stock-ms respectively.
 Once they get stated , now we can hit the payment microservice's controller with /api/orders
 
-![hitting payment-ms's controller with postman at /api/orders](https://github.com/tigllon/spring-boot-distributed-transactions/assets/56904319/7a88ed77-8ab4-4133-849f-f8a03d349f75)
+![hitting order-ms's controller with postman at /api/orders](https://github.com/user-attachments/assets/b19b0918-e604-4f23-8fcd-407aa1cb8cfc)
+
 
 As soon as we hit, the payment-ms pushes events to the apache kafka with whom the other microservices connects and thus the distributed transactions take place.
